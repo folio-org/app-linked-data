@@ -1,0 +1,36 @@
+{
+  "name": "${project.name}",
+  "version": "${project.version}",
+  "description": "${project.description}",
+  "platform": "complete",
+  "dependencies": [
+    {
+      "name": "app-platform-complete",
+      "version": "^1.0.0"
+    }
+  ],
+  "modules": [
+    {
+      "name": "mod-linked-data",
+      "version": "latest"
+    },
+    {
+      "name": "mod-atom-feed-reader",
+      "version": "latest"
+    },
+    {
+      "name": "mod-hubs-data-import",
+      "version": "latest"
+    },
+    {
+      "name": "mod-graph-rebuilder",
+      "version": "latest"
+    }
+  ],
+  "uiModules": [
+    {
+      "name": "folio_ld-folio-wrapper",
+      "version": "latest"
+    }
+  ]
+}
