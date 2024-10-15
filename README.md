@@ -1,6 +1,6 @@
 # app-linked-data
 
-Application descriptor repository for app-linked data.
+Application Descriptor Repository for Linked Data application.
 
 ## Modules
 
