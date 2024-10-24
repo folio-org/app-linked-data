@@ -13,18 +13,6 @@
     {
       "name": "mod-linked-data",
       "version": "latest"
-    },
-    {
-      "name": "mod-atom-feed-reader",
-      "version": "latest"
-    },
-    {
-      "name": "mod-hubs-data-import",
-      "version": "latest"
-    },
-    {
-      "name": "mod-graph-rebuilder",
-      "version": "latest"
     }
   ],
   "uiModules": [
