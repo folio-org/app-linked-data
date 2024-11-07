@@ -7,6 +7,9 @@ Application Descriptor repository for Linked Data application.
 | Module name            |
 |:-----------------------|
 | `mod-linked-data`      |
+| `mod-atom-feed-reader` |
+| `mod-hub-data-import`  |
+| `mod-graph-rebuilder`  |
 
 ## UI Modules
 
