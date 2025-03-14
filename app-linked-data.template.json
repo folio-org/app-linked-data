@@ -5,8 +5,8 @@
   "platform": "complete",
   "dependencies": [
     {
-      "name": "app-platform-full",
-      "version": "^1.0.0-SNAPSHOT"
+      "name": "app-platform-complete",
+      "version": "^1.0.0"
     }
   ],
   "modules": [
