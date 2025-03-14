@@ -6,8 +6,8 @@
     <name>app-linked-data</name>
     <artifactId>app-linked-data</artifactId>
     <groupId>org.folio</groupId>
-    <description>Linked Data application installation</description>
-    <version>1.0.0-SNAPSHOT</version>
+    <description>Linked Data application descriptor</description>
+    <version>1.0.0</version>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
