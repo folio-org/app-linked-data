@@ -4,9 +4,10 @@ Application Descriptor Repository for Linked Data application.
 
 ## Modules
 
-| Module name            |
-|:-----------------------|
-| `mod-linked-data`      |
+| Module name              |
+|:-------------------------|
+| `mod-linked-data`        |
+| `mod-linked-data-import` |
 
 ## UI Modules
 
