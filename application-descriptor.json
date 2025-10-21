@@ -1,6 +1,6 @@
 {
   "name": "app-linked-data",
-  "version": "1.1.0-SNAPSHOT.100100000001967",
+  "version": "1.1.0-SNAPSHOT.100100000002021",
   "description": "Linked Data application installation",
   "platform": "complete",
   "dependencies": [
@@ -12,7 +12,7 @@
   "modules": [
     {
       "name": "mod-linked-data",
-      "version": "2.0.0-SNAPSHOT.348"
+      "version": "2.0.0-SNAPSHOT.349"
     }
   ],
   "uiModules": [
