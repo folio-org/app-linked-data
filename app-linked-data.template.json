@@ -13,6 +13,10 @@
     {
       "name": "mod-linked-data",
       "version": "latest"
+    },
+    {
+      "name": "mod-linked-data-import",
+      "version": "latest"
     }
   ],
   "uiModules": [
