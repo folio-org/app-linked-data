@@ -1,6 +1,6 @@
 {
   "name": "app-linked-data",
-  "version": "1.1.0-SNAPSHOT.100200000001344",
+  "version": "1.1.0-SNAPSHOT.100200000001384",
   "description": "Linked Data application installation",
   "platform": "complete",
   "dependencies": [
@@ -18,7 +18,7 @@
   "uiModules": [
     {
       "name": "folio_ld-folio-wrapper",
-      "version": "2.0.109900000000328"
+      "version": "2.0.1099000000000352"
     }
   ]
 }
