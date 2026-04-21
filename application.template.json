@@ -6,42 +6,42 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^3.0.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^3.0.0-SNAPSHOT",
+      "preRelease": "false"
     },
     {
       "name": "app-search",
-      "version": "^1.0.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
     },
     {
       "name": "app-marc-storage",
-      "version": "^1.0.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
     },
     {
       "name": "app-authority-records",
-      "version": "^1.0.0-SNAPSHOT",
-      "preRelease": "only"
+      "version": "^VERSION_^1.0.0-SNAPSHOT",
+      "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-linked-data",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     },
     {
       "name": "mod-linked-data-import",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_ld-folio-wrapper",
-        "version": "latest",
-        "preRelease": "only"
+      "version": "^VERSION_latest",
+      "preRelease": "false"
     }
   ]
 }
