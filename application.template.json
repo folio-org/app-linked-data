@@ -6,41 +6,41 @@
   "dependencies": [
     {
       "name": "app-platform-complete",
-      "version": "^3.0.0",
+      "version": "~3.3.0",
       "preRelease": "false"
     },
     {
       "name": "app-search",
-      "version": "^1.0.0",
+      "version": "~1.0.0",
       "preRelease": "false"
     },
     {
       "name": "app-marc-storage",
-      "version": "^1.0.0",
+      "version": "~1.0.0",
       "preRelease": "false"
     },
     {
       "name": "app-authority-records",
-      "version": "^1.0.0",
+      "version": "~1.0.0",
       "preRelease": "false"
     }
   ],
   "modules": [
     {
       "name": "mod-linked-data",
-      "version": "^2.0.0",
+      "version": "~2.0.0",
       "preRelease": "false"
     },
     {
       "name": "mod-linked-data-import",
-      "version": "^1.0.0",
+      "version": "~1.0.0",
       "preRelease": "false"
     }
   ],
   "uiModules": [
     {
       "name": "folio_ld-folio-wrapper",
-      "version": "^2.0.0",
+      "version": "~2.0.0",
       "preRelease": "false"
     }
   ]
