@@ -1,16 +1,16 @@
 {
-  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000011912",
+  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012011",
   "name" : "app-linked-data",
-  "version" : "2.1.0-SNAPSHOT.100200000011912",
+  "version" : "2.1.0-SNAPSHOT.100200000012011",
   "description" : "Linked Data application installation",
   "modules" : [ {
-    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2574",
+    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2577",
     "name" : "mod-linked-data",
-    "version" : "3.0.0-SNAPSHOT.2574"
+    "version" : "3.0.0-SNAPSHOT.2577"
   }, {
-    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2114",
+    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2115",
     "name" : "mod-linked-data-import",
-    "version" : "2.0.0-SNAPSHOT.2114"
+    "version" : "2.0.0-SNAPSHOT.2115"
   } ],
   "uiModules" : [ {
     "id" : "folio_ld-folio-wrapper-2.0.5099000000000509",
@@ -35,7 +35,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2574",
+    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2577",
     "name" : "Linked Data Module",
     "requires" : [ {
       "id" : "source-storage-records",
@@ -414,7 +414,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-linked-data:3.0.0-SNAPSHOT.2574",
+      "dockerImage" : "folioci/mod-linked-data:3.0.0-SNAPSHOT.2577",
       "dockerPull" : true,
       "env" : [ {
         "name" : "SERVER_PORT",
@@ -555,7 +555,7 @@
       }
     }
   }, {
-    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2114",
+    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2115",
     "name" : "Linked Data Import Module",
     "requires" : [ {
       "id" : "linked-data",
@@ -625,7 +625,7 @@
       "description" : "Stop a running import job by job execution ID"
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-linked-data-import:2.0.0-SNAPSHOT.2114",
+      "dockerImage" : "folioci/mod-linked-data-import:2.0.0-SNAPSHOT.2115",
       "dockerPull" : true,
       "env" : [ {
         "name" : "SERVER_PORT",
