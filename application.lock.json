@@ -13,9 +13,9 @@
     "version" : "1.0.1"
   } ],
   "uiModules" : [ {
-    "id" : "folio_ld-folio-wrapper-2.0.5",
+    "id" : "folio_ld-folio-wrapper-2.0.6",
     "name" : "folio_ld-folio-wrapper",
-    "version" : "2.0.5"
+    "version" : "2.0.6"
   } ],
   "dependencies" : [ {
     "name" : "app-platform-complete",
@@ -746,7 +746,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_ld-folio-wrapper-2.0.5",
+    "id" : "folio_ld-folio-wrapper-2.0.6",
     "name" : "Linked Data Editor - Folio Wrapper",
     "requires" : [ {
       "id" : "authority-source-files",
@@ -783,7 +783,7 @@
       "permissionName" : "ui-marigold.cataloger.all",
       "replaces" : [ "ui-linked-data.all" ],
       "displayName" : "Marigold: Cataloger permissions",
-      "subPermissions" : [ "module.ld-folio-wrapper.enabled", "browse.authorities.collection.get", "inventory-storage.authority-source-files.collection.get", "linked-data.authority-assignment-check.post", "linked-data.hub.preview.get", "linked-data.hub.import.post", "linked-data.import.file.post", "linked-data.import.url.post", "linked-data.profiles.item.get", "linked-data.profiles.metadata.get", "linked-data.profiles.preferred.get", "linked-data.profiles.preferred.post", "linked-data.profiles.preferred.delete", "linked-data.profiles.settings.get", "linked-data.profiles.settings.post", "linked-data.resources.bib.delete", "linked-data.resources.bib.get", "linked-data.resources.bib.id.get", "linked-data.resources.bib.marc.get", "linked-data.resources.bib.post", "linked-data.resources.bib.put", "linked-data.resources.graph.get", "linked-data.resources.import.post", "linked-data.resources.preview.get", "linked-data.resources.rdf.get", "linked-data.resources.support-check.get", "linked-data.vocabularies.item.get", "search.authorities.collection.get", "search.facets.collection.get", "search.linked-data.work.collection.get", "search.linked-data.hub.collection.get", "source-storage.records.formatted.item.get" ],
+      "subPermissions" : [ "module.ld-folio-wrapper.enabled", "browse.authorities.collection.get", "inventory-storage.authority-source-files.collection.get", "linked-data.authority-assignment-check.post", "linked-data.hub.preview.get", "linked-data.hub.import.post", "linked-data.import.file.post", "linked-data.import.url.post", "linked-data.profiles.item.get", "linked-data.profiles.metadata.get", "linked-data.profiles.preferred.get", "linked-data.profiles.preferred.post", "linked-data.profiles.preferred.delete", "linked-data.profiles.settings.get", "linked-data.profiles.settings.post", "linked-data.profiles.settings.put", "linked-data.profiles.settings.delete", "linked-data.profiles.settings.list.get", "linked-data.profiles.settings.preferred.get", "linked-data.profiles.settings.preferred.post", "linked-data.profiles.settings.preferred.delete", "linked-data.resources.bib.delete", "linked-data.resources.bib.get", "linked-data.resources.bib.id.get", "linked-data.resources.bib.marc.get", "linked-data.resources.bib.post", "linked-data.resources.bib.put", "linked-data.resources.graph.get", "linked-data.resources.import.post", "linked-data.resources.preview.get", "linked-data.resources.rdf.get", "linked-data.resources.support-check.get", "linked-data.vocabularies.item.get", "search.authorities.collection.get", "search.facets.collection.get", "search.linked-data.work.collection.get", "search.linked-data.hub.collection.get", "source-storage.records.formatted.item.get" ],
       "visible" : true
     } ],
     "metadata" : {
