@@ -1,16 +1,16 @@
 {
-  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012213",
+  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012279",
   "name" : "app-linked-data",
-  "version" : "2.1.0-SNAPSHOT.100200000012213",
+  "version" : "2.1.0-SNAPSHOT.100200000012279",
   "description" : "Linked Data application installation",
   "modules" : [ {
+    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2124",
+    "name" : "mod-linked-data-import",
+    "version" : "2.0.0-SNAPSHOT.2124"
+  }, {
     "id" : "mod-linked-data-3.0.0-SNAPSHOT.2590",
     "name" : "mod-linked-data",
     "version" : "3.0.0-SNAPSHOT.2590"
-  }, {
-    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2121",
-    "name" : "mod-linked-data-import",
-    "version" : "2.0.0-SNAPSHOT.2121"
   } ],
   "uiModules" : [ {
     "id" : "folio_ld-folio-wrapper-2.0.6099000000000517",
@@ -555,7 +555,7 @@
       }
     }
   }, {
-    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2121",
+    "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2124",
     "name" : "Linked Data Import Module",
     "requires" : [ {
       "id" : "linked-data",
@@ -625,7 +625,7 @@
       "description" : "Stop a running import job by job execution ID"
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-linked-data-import:2.0.0-SNAPSHOT.2121",
+      "dockerImage" : "folioci/mod-linked-data-import:2.0.0-SNAPSHOT.2124",
       "dockerPull" : true,
       "env" : [ {
         "name" : "SERVER_PORT",
