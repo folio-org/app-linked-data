@@ -1,7 +1,7 @@
 {
-  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012427",
+  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012442",
   "name" : "app-linked-data",
-  "version" : "2.1.0-SNAPSHOT.100200000012427",
+  "version" : "2.1.0-SNAPSHOT.100200000012442",
   "description" : "Linked Data application installation",
   "modules" : [ {
     "id" : "mod-linked-data-3.0.0-SNAPSHOT.2605",
@@ -13,9 +13,9 @@
     "version" : "2.0.0-SNAPSHOT.2127"
   } ],
   "uiModules" : [ {
-    "id" : "folio_ld-folio-wrapper-2.0.6099000000000517",
+    "id" : "folio_ld-folio-wrapper-2.0.6099000000000525",
     "name" : "folio_ld-folio-wrapper",
-    "version" : "2.0.6099000000000517"
+    "version" : "2.0.6099000000000525"
   } ],
   "dependencies" : [ {
     "name" : "app-platform-complete",
@@ -746,7 +746,7 @@
     }
   } ],
   "uiModuleDescriptors" : [ {
-    "id" : "folio_ld-folio-wrapper-2.0.6099000000000517",
+    "id" : "folio_ld-folio-wrapper-2.0.6099000000000525",
     "name" : "Linked Data Editor - Folio Wrapper",
     "requires" : [ {
       "id" : "authority-source-files",
