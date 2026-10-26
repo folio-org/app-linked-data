@@ -1,12 +1,12 @@
 {
-  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012478",
+  "id" : "app-linked-data-2.1.0-SNAPSHOT.100200000012541",
   "name" : "app-linked-data",
-  "version" : "2.1.0-SNAPSHOT.100200000012478",
+  "version" : "2.1.0-SNAPSHOT.100200000012541",
   "description" : "Linked Data application installation",
   "modules" : [ {
-    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2611",
+    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2614",
     "name" : "mod-linked-data",
-    "version" : "3.0.0-SNAPSHOT.2611"
+    "version" : "3.0.0-SNAPSHOT.2614"
   }, {
     "id" : "mod-linked-data-import-2.0.0-SNAPSHOT.2130",
     "name" : "mod-linked-data-import",
@@ -35,7 +35,7 @@
     "preRelease" : "only"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2611",
+    "id" : "mod-linked-data-3.0.0-SNAPSHOT.2614",
     "name" : "Linked Data Module",
     "requires" : [ {
       "id" : "source-storage-records",
@@ -414,7 +414,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioci/mod-linked-data:3.0.0-SNAPSHOT.2611",
+      "dockerImage" : "folioci/mod-linked-data:3.0.0-SNAPSHOT.2614",
       "dockerPull" : true,
       "env" : [ {
         "name" : "SERVER_PORT",
