@@ -1,16 +1,16 @@
 {
-  "id" : "app-linked-data-2.0.5",
+  "id" : "app-linked-data-2.0.6",
   "name" : "app-linked-data",
-  "version" : "2.0.5",
+  "version" : "2.0.6",
   "description" : "Linked Data application installation",
   "modules" : [ {
-    "id" : "mod-linked-data-2.0.4",
+    "id" : "mod-linked-data-2.0.5",
     "name" : "mod-linked-data",
-    "version" : "2.0.4"
+    "version" : "2.0.5"
   }, {
-    "id" : "mod-linked-data-import-1.0.1",
+    "id" : "mod-linked-data-import-1.0.2",
     "name" : "mod-linked-data-import",
-    "version" : "1.0.1"
+    "version" : "1.0.2"
   } ],
   "uiModules" : [ {
     "id" : "folio_ld-folio-wrapper-2.0.6",
@@ -35,7 +35,7 @@
     "preRelease" : "false"
   } ],
   "moduleDescriptors" : [ {
-    "id" : "mod-linked-data-2.0.4",
+    "id" : "mod-linked-data-2.0.5",
     "name" : "Linked Data Module",
     "requires" : [ {
       "id" : "source-storage-records",
@@ -414,7 +414,7 @@
       }
     },
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/mod-linked-data:2.0.4",
+      "dockerImage" : "folioorg/mod-linked-data:2.0.5",
       "dockerPull" : true,
       "env" : [ {
         "name" : "SERVER_PORT",
@@ -555,7 +555,7 @@
       }
     }
   }, {
-    "id" : "mod-linked-data-import-1.0.1",
+    "id" : "mod-linked-data-import-1.0.2",
     "name" : "Linked Data Import Module",
     "requires" : [ {
       "id" : "linked-data",
@@ -625,7 +625,7 @@
       "description" : "Stop a running import job by job execution ID"
     } ],
     "launchDescriptor" : {
-      "dockerImage" : "folioorg/mod-linked-data-import:1.0.1",
+      "dockerImage" : "folioorg/mod-linked-data-import:1.0.2",
       "dockerPull" : true,
       "env" : [ {
         "name" : "SERVER_PORT",
